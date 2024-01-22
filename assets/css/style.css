@@ -5,9 +5,30 @@
 }
 
 :root{
-  font-size: 62,5%;
+  font-size: 62.5%;
 }
 
 body{
   font-size: 1.6rem;
+}
+
+header{
+  display: flex;
+  justify-content: center;
+  height: 12rem;
+}
+
+.container{
+  display: flex;
+  justify-content: space-between;
+  width: 99rem;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+}
+
+.menu{
+
 }
