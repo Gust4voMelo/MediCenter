@@ -30,5 +30,37 @@ header{
 }
 
 .menu{
+  display: flex;
+  align-items: center;
+}
 
+nav ul,
+nav li{
+  list-style: none;
+}
+
+nav ul{
+  display: flex;
+}
+
+nav a{
+  display: block;
+  padding: 1.5rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #727272;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+nav a:hover,
+nav .active a{
+  background-color: #39AAE1;
+  color: #FFF;
+}
+
+#banner{
+  background-image: url('../images/img1.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 67rem;
 }
