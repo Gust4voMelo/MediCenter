@@ -230,3 +230,89 @@ aside .text{
 aside .text a{
   color: #333;
 }
+
+
+footer{
+  background-color: #1E1E1E;
+  display: flex;
+  justify-content: center;
+}
+.footer_menu{
+  display: flex;
+}
+.fm_1, .fm_2, .fm_3{
+  flex: 1;
+}
+.fm_1{
+  background-color: #39AAE1;
+}
+.fm_2{
+  background-color: #0079C7;
+}
+.fm_3{
+  background-color: #2B4C99;
+}
+.footer_menu a{
+  display: block;
+  text-decoration: none;
+  padding: 2rem;
+  color: #FFF;
+  font-size: 1.2rem;
+}
+.footer_menu a h2{
+  font-size: 2.4rem;
+  padding: 1rem 0;
+}
+
+.footer_area{
+  display: flex;
+  color: #FFF; 
+}
+.footer_area_item{
+  flex: 1;
+}
+.flexColumn{
+  flex-direction: column;
+}
+
+footer .widget_title_text{
+  color: #FFF;
+}
+footer .widget_body{
+  color: #727272;
+  margin-right: 1rem;
+}
+footer .widget_body a{
+  color: #FFF;
+  text-decoration: none;
+}
+footer .widget_body p{
+  padding-bottom: 1.5rem;
+}
+.clinic1, .clinic2, .clinic3{
+  display: flex;
+  padding: 0.3rem;
+  margin-top: 0.7rem;
+  justify-content: space-between;
+  border-bottom: 0.1rem solid #727272;
+}
+footer .post{
+  margin-bottom: 2rem;
+  color: #39AAE1;
+}
+footer .post p{
+  color: #FFF;
+  padding-bottom: 0.2rem;
+}
+footer .t p{
+  color: #727272;
+}
+
+.footer_copy{
+  border-top: 0.1rem solid #2C2C2C;
+  height: 4rem;
+  line-height: 4rem;
+  color: #5C5C5C;
+  font-size: 1.2rem;
+  margin-top: 3rem;
+}
