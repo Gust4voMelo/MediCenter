@@ -316,3 +316,79 @@ footer .t p{
   font-size: 1.2rem;
   margin-top: 3rem;
 }
+
+.menuMobile{
+  display: none;
+  width: 4rem;
+  height: 4rem;
+  margin: 4rem 2rem 4rem 0;
+}
+
+.mm_line{
+  height: 0.3rem;
+  background-color: #39AAE1;
+}
+
+@media (max-width:600px){
+
+  .banner_headline{
+    padding: 2rem;
+  }
+  .banner_headline h1{
+    font-size: 5.5rem;
+  }
+  .banner_headline h2{
+    font-size: 1.7rem;
+  }
+
+  .banner_options{
+    height: auto;
+    flex-direction: column;
+  }
+
+  .container{
+    flex-direction: column;
+  }
+
+  #geral section{
+    margin-top: 7rem;
+    padding: 2rem;
+  }
+
+  #geral aside{
+    padding: 2rem;
+  }
+
+  .footer_menu{
+    flex-direction: column;
+  }
+  .footer_area{
+    flex-direction: column;
+    padding: 2rem;
+  }
+  .footer_copy{
+    padding-left: 2rem;
+  }
+
+  header .container{
+    flex-direction: row;
+  }
+
+  nav ul{
+    flex-direction: column;
+    display: none;
+  }
+
+  header{
+    height: auto;
+  }
+  .logo{
+    padding-left: 2rem;
+  }
+
+  .menuMobile{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+}
