@@ -7,8 +7,8 @@
 
 - ``HTML``
 - ``CSS``
-- ``Mobile First``
 - ``JavaScript``
+- ``Mobile First``
 
 ## 📁 Acesso ao projeto
 Você pode acessar o projeto clicando [aqui]().
